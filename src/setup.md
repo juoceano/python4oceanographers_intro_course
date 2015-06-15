@@ -70,31 +70,33 @@ source deactivate
 
 1.  Navegue para [Anaconda Python Distribution](https://store.continuum.io/cshop/anaconda/) e clique em "download Anaconda."  Depois escolha seu instalador: `Windows 64-bit Python 2.7 Graphical Installer`.  (Não clique em `I WANT PYTHON3.4` e escolha Windows 32-bit caso esteja usando uma versão antiga do WindowsXP.)
 
-2. Depois do download, rode o programa de instalação, depois vá em: "Start => All Programs" e abra a pasta do Anaconda.
+2. Depois do download, rode o programa de instalação, 
 
-3. Clique em `Anaconda Command Prompt` para abrir uma linha de comandos.
+3. Vá em: "Start => All Programs" e abra a pasta do Anaconda.
+
+4. Clique em `Anaconda Command Prompt` para abrir uma linha de comandos.
 
 ### Crie um ambiente para o curso
 
-4. Na linha de comando *Anaconda Command Prompt*, digite `launcher`.
+1. Na linha de comando *Anaconda Command Prompt*, digite `launcher`.
 
-5. No *Launcher*, clique em *Manage Channels* encima à direita.
+2. No *Launcher*, clique em *Manage Channels* encima à direita.
 
-6. Digite "ioos" na caixa de texto, clique em *Add Channel*.  Note que você
+3. Digite "ioos" na caixa de texto, clique em *Add Channel*.  Note que você
 deve ter apenas 2 canais: `ioos` e `defaults`.  Clique em *Submit*.
 
-7. No *Launcher*, clique em *Environment* no topo, depois em *new environment* e na caixa *New Environment Name*, digite "curso" e deixe a versão do Python em 2.7.  Clique em *submit*.
+4. No *Launcher*, clique em *Environment* no topo, depois em *new environment* e na caixa *New Environment Name*, digite "curso" e deixe a versão do Python em 2.7.  Clique em *submit*.
 
-8. Depois clique em *Environment* novamente e certifique que "curso" está selecionado.
+5. Depois clique em *Environment* novamente e certifique que "curso" está selecionado.
 
-9. Abra a janela de comando do *Anaconda* e cheque o diretório que você está.
+6. Abra a janela de comando do *Anaconda* e cheque o diretório que você está.
 
-10. Faça o download do arquivo de requisitos para
+7. Faça o download do arquivo de requisitos para
 [Windows](https://raw.githubusercontent.com/ioos/conda-recipes/master/00_env_requirements/ioos/ioos_req_windows64.txt)
 no diretório acima.
 
 
-3. Na linha de comandos digite:
+8. Na linha de comandos digite:
 ```
 activate curso
 conda install --file ioos_req_windows64.txt --yes
